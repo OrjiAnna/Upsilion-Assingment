@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, body {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        div#container {
+            margin: 0 auto;
+            background-color: rgb(240, 186, 105);
+            padding: 20px 30px;
+            width: 800px;
+        }
+
+        @media screen and (max-width: 500px) {
+            div#container {
+                width: 100%;
+                padding: 20px 30px;
+            } 
+        }
+
+        div.header-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div#name h1,
+        div#name h4 {
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        @media screen and (max-width: 500px) {
+            h1#my-name {
+                font-size: 25px;
+            }   
+        }
+
+
+        div.header-contents img {
+            height: 100px;
+            width: auto;
+            border-radius: 20px;
+        }
+        h3.title-heading {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-bottom: 1px solid rgb(110, 22, 22);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header-container">
+                <div class="header-contents" id="name"> 
+                    <h1 id="my-name">Orji Anna Chimalume</h1>
+                    <h4>Hardware Engr.</h4>
+                </div>
+
+                <div class="header-contents image">
+                    <img src="./images/picture.JPEG" alt="profile picture">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <div>
+                    <h3 class="title-heading">Objectives:</h3>
+                    <p>To become a succesful network technitian and to help companies and to help promote the innovation of Information Technology in our morther land Nigeria</p>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Background:</h3>
+                    <ul>
+                        <li>Nursery Education: Legacy Private School, Abuja (2005--2007)</li>
+                        <li>Primary Education: Legacy Private School, Abuja (2007--2013)</li>
+                        <li>Secondary Education: spiritan international girls Secondary School(2013--2019)</li>
+                        <li>Tetiary Education: Godfrey Okoye University,Emene,Enugu(2020--2024)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Skill set:</h3>
+                    <ol>
+                        <li>I am a good graphics designer with a skillful experience in Corel Draw</li>
+                        <li>I am an Instrumentalist</li>
+                        <li>I am a skillful writer and content creator</li>
+                        <li>I am a wonderful sportsman</li>
+                        <li>I have the basic knowledge of computer hardware repairs</li>
+                        
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Prospective Project:</h3>
+                    <ol>
+                        <li>Establishing a proffesional sports academy for kids</li>
+                        <li>Establishing a globally known dance brand to help young dancers around the world achive success</li>
+                        <li>Creating a social media platform where users can easily colaborate with one another</li>
+                    </ol>
+                </div>
+            </div>
+        </main> 
+    </div>
+
+</body>
+</html>
